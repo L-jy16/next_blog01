@@ -1,0 +1,698 @@
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 500;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot');
+    src: url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix') format('embedded-opentype'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-aLt.eot');
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-aLt.eot?#iefix') format('embedded-opentype'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-aLt.woff2') format('woff2'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-aLt.woff') format('woff'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-aLt.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-bRg.eot');
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-bRg.eot?#iefix') format('embedded-opentype'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-bRg.woff2') format('woff2'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-bRg.woff') format('woff'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-bRg.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-cBd.eot');
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-cBd.eot?#iefix') format('embedded-opentype'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-cBd.woff2') format('woff2'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-cBd.woff') format('woff'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-cBd.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 800;
+    font-style: normal;
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-dEb.eot');
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-dEb.eot?#iefix') format('embedded-opentype'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-dEb.woff2') format('woff2'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-dEb.woff') format('woff'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-dEb.ttf') format("truetype");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 900;
+    font-style: normal;
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-eHv.eot');
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-eHv.eot?#iefix') format('embedded-opentype'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-eHv.woff2') format('woff2'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-eHv.woff') format('woff'),
+        url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-eHv.ttf') format("truetype");
+    font-display: swap;
+}
+
+:root {
+    --black: #000;
+    --black100: #000;
+    --black200: #000;
+    --black300: #000;
+    --black400: #000;
+    --black500: #000;
+
+    --white: #fff;
+    --white100: #fff;
+    --white200: #fff;
+    --white300: #fff;
+    --white400: #fff;
+    --white500: #fff;
+
+    --fontNan: "NanumSquareNeo";
+    --fontGma: "GmarketSans";
+    --fontOrb: "Orbitron";
+
+    /* 기본 폰트 설정 */
+    font-family: var(--fontNan);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    /* 아이폰 가로 모드에서 글씨 확대 금지 */
+    -webkit-text-size-adjust: 100%;
+}
+
+.container {
+    max-width: 1260px;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.dark {
+    --black: #000;
+    --white: #fff;
+}
+
+.light {
+    --black: #fff;
+    --white: #000;
+}
+
+.none {
+    display: none;
+}
+
+@media (max-width: 800px) {
+    :root {
+        font-size: 14px;
+    }
+}
+
+
+
+/* 여백 초기화 */
+body,
+div,
+dl,
+dd,
+dt,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+p,
+table,
+th,
+td,
+input,
+figure,
+figcaption,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+/* box-sizing 초기화 */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* 폰트 초기화 */
+body,
+button,
+input,
+select,
+table,
+textarea {
+    font-family: var(--fontNan), var(--fontGma), 'AppleSDGothicNeo-Regular', 'Malgun Gothic', '맑은 고딕', 'dotum', '돋움';
+}
+
+/* 링크 초기화 */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 목록 초기화 */
+li,
+ol,
+ul {
+    list-style: none;
+}
+
+/* 제목 초기화 */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+/* 폰트 스타일 */
+em,
+address {
+    font-style: normal;
+}
+
+/* 이미지 초기화 */
+img {
+    width: 100%;
+    vertical-align: top;
+}
+
+/* 보더 초기화 */
+img,
+fieldset,
+button {
+    border: 0;
+}
+
+/* 테이블 초기화 */
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/* 클리어픽스 */
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: block;
+    line-height: 0;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+/* 블라인드 효과 */
+.blind {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
+/* ir 효과 */
+.ir {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+.main__conts>h3 {
+    text-align: center;
+    font-family: 'GmarketSans';
+    font-size: 1.4rem;
+    padding: 2rem 0 1rem;
+}
+
+// header
+#header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 90000;
+    background-color: var(--black);
+    border-bottom: 1px solid var(--white);
+
+    .header__logo {
+        color: var(--white);
+        padding: 1rem;
+        font-weight: 200;
+    }
+}
+
+.header__theme {
+    background-color: var(--white);
+    width: 40px;
+    height: 20px;
+    border-radius: 50px;
+    display: flex;
+    padding: 3px;
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+    top: 1.125rem;
+
+    .ball {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: var(--black);
+        position: absolute;
+        top: 2px;
+        display: inline-block;
+        transition: all 0.3s;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+#main {
+    min-height: 85vh;
+}
+
+.main__header {
+    text-align: center;
+    background-color: var(--black);
+    border-bottom: 1px solid var(--white);
+    padding: 5.625rem 0;
+    margin-top: 57px;
+
+    >h2 {
+        font-size: 2.5rem;
+        line-height: 1;
+        color: var(--white);
+        margin-bottom: 1.25rem;
+    }
+
+    >p {
+        font-size: 1rem;
+        color: var(--white);
+        font-weight: 300;
+        font-family: "GmarketSans";
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+            color: var(--white);
+
+            &:hover {
+                text-decoration: underline;
+                text-underline-position: under;
+            }
+        }
+    }
+
+    a {
+        color: var(--white);
+        padding-right: 10px;
+        font-weight: 300;
+        font-family: "GmarketSans";
+    }
+
+    span {
+        color: var(--white);
+        cursor: pointer;
+        font-family: "GmarketSans";
+        font-weight: 300;
+        padding: 5px;
+    }
+
+    .line {
+        text-decoration: underline;
+        text-underline-position: under;
+        text-decoration-thickness: 0.5px;
+    }
+
+    @media (max-width: 800px) {
+        margin-top: 50px;
+    }
+}
+
+#footer {
+    background-color: var(--black);
+    color: var(--white);
+    padding: 50px 100px 50px 100px;
+    border-top: 1px solid var(--white);
+}
+
+.join__inner {
+    width: 360px;
+    margin: 0 auto;
+    font-family: var(--fontNan);
+
+    >h3 {
+        text-align: center;
+        font-family: var(----fontNan);
+        font-size: 1.4rem;
+        padding: 2rem 0 1rem;
+    }
+
+    input {
+        border: 1px solid #ccc;
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        font-family: var(--fontNan);
+        color: #666;
+    }
+
+    label {
+        position: absolute;
+        clip: rect(0, 0, 0, 0);
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+    }
+
+    button {
+        font-size: 1rem;
+        background-color: var(--black);
+        color: var(--white);
+        width: 100%;
+        padding: 1rem;
+        border-radius: 5px;
+    }
+
+    .join__form {
+        border-bottom: 1px solid #e2e2e2;
+        padding-bottom: 2rem;
+
+        div input {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.join__add {
+    margin: 2rem 0 4rem;
+    position: relative;
+}
+
+.join__add .icon {
+    text-align: center;
+    border-radius: 50px;
+    padding: 0.8rem 1rem;
+    position: relative;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.join__add .icon::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    position: absolute;
+    left: 24px;
+    top: 17px;
+}
+
+.join__add .icon.naver {
+    background-color: #44BA47;
+    color: var(--white);
+}
+
+.join__add .icon.kakao {
+    background-color: #ECD05F;
+    color: var(--black);
+}
+
+.join__add .icon.google {
+    background-color: #ececec;
+    color: var(--black);
+}
+
+.join__add .icon.github {
+    background-color: #000;
+    color: var(--white);
+}
+
+.join__add .icon.facebook {
+    background-color: #0866FF;
+    color: var(--white);
+}
+
+.join__add .etc {
+    text-align: center;
+    color: #666;
+    margin-top: 1rem;
+}
+
+.join__add .etc a {
+    font-size: 14px;
+    color: #666;
+    display: inline-block;
+    padding: 3px 8px;
+    position: relative;
+}
+
+.join__add .etc a::after {
+    content: '';
+    width: 1px;
+    height: 10px;
+    background-color: #c8c8c8;
+    position: absolute;
+    top: 8px;
+    right: -1px;
+}
+
+.join__add .etc a:last-child::after {
+    width: 0;
+    padding: 0;
+}
+
+.board__inner {
+    padding: 4rem 0;
+}
+
+.board__search {
+    font-family: 'NanumSquareNeo';
+
+    form {
+        fieldset {
+            display: flex;
+            justify-content: right;
+
+            input {
+                border: 1px solid #ccc;
+                padding: 0.6rem 1rem;
+                margin-right: 5px;
+                border-radius: 3px;
+            }
+
+            select {
+                border: 1px solid #ccc;
+                padding: 0.5rem 1rem;
+                font-size: 14px;
+                border-radius: 3px;
+            }
+
+            button,
+            a {
+                background-color: var(--black);
+                color: var(--white);
+                padding: 0.63rem 2rem;
+                margin-left: 5px;
+                vertical-align: -1px;
+                border-radius: 3px;
+                font-size: 14px;
+            }
+        }
+    }
+
+
+
+}
+
+// board__list
+.board__list {
+    margin: 1rem 0;
+    border-top: 2px solid #000;
+    border-bottom: 1px solid #000;
+
+    table {
+
+        tr {
+            &:hover {
+                background-color: #f3f3f3;
+                cursor: pointer;
+            }
+        }
+
+        th,
+        td {
+            padding: 0.9rem 5px;
+            border-bottom: 1px solid #333;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        th {
+            background-color: #e8e8e8;
+            color: var(--black);
+        }
+    }
+}
+
+.board__pages {
+    margin: 2rem;
+
+    ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+            width: 30px;
+            height: 30px;
+            line-height: 28px;
+            border: 1px solid #5c5c5c;
+            margin: 1px;
+            font-size: 14px;
+            text-align: center;
+
+            &:hover {
+                background-color: var(--black);
+                border-color: var(--black);
+                color: var(--white);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+
+.board__btns {
+    display: flex;
+    justify-content: right;
+
+    a,
+    button {
+        background-color: var(--black);
+        color: var(--white);
+        padding: 0.63rem 2rem;
+        margin-left: 5px;
+        margin-top: 10px;
+        vertical-align: -1px;
+        border-radius: 3px;
+        font-size: 14px;
+        display: inline-block;
+        font-family: 'NanumSquareNeo';
+    }
+}
+
+.board__view {
+    border-top: 2px solid var(--black);
+    border-bottom: 1px solid var(--black);
+}
+
+.board__view table th {
+    background-color: #e8e8e8;
+}
+
+.board__view table th,
+.board__view table td {
+    padding: 15px;
+    border-bottom: 1px solid var(--black400);
+    white-space: pre-line;
+}
+
+.board__view table tr:last-child td {
+    height: 500px;
+    vertical-align: top;
+}
+
+
+.board__write {
+    label {
+        display: none;
+    }
+
+    input {
+        border: 0;
+        background-color: #f3f3f3;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+        background-color: #f3f3f3;
+        border: 0;
+        margin-top: 10px;
+        padding: 1rem;
+        resize: none;
+    }
+}
